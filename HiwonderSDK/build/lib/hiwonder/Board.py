@@ -8,7 +8,7 @@ from . import PWMServo
 from . import BusServoCmd
 from smbus2 import SMBus, i2c_msg
 
-#幻尔科技TonyPi扩展板sdk#
+#幻尔科技扩展板sdk#
 if sys.version_info.major == 2:
     print('Please run this program with python3!')
     sys.exit(0)
